@@ -1,4 +1,4 @@
-FROM arm64v8/alpine:latest
+FROM arm32v6/alpine:latest
 MAINTAINER Alex Jones <alex.jones@unclealex.co.uk>
 
 RUN apk update && apk add socat --no-cache
